@@ -19,3 +19,4 @@ int main()
     cout<<"O estoque médio é de "<<estoqueMedio<<" peças" <<endl;
 
 }
+
