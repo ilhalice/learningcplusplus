@@ -24,7 +24,10 @@ float valorHora, percentual, salarioLiquido, salarioBruto, valorDesc;
 
     salarioLiquido = salarioBruto - valorDesc;
 
-    cout<<"O valor do salário bruto é de: R$ "<<salarioBruto<<". O valor do desconto é de: R$ "<<valorDesc<<". Feito o calculo, o salário líquido será de: R$ "<<salarioLiquido<<endl;
+    cout<<"O valor do salário bruto é de: R$ "<<salarioBruto<<endl;
+    cout<<"O valor do desconto é de: R$ "<<valorDesc<<endl;
+    cout<<"Feito o calculo, o salário líquido será de: R$ "<<salarioLiquido<<endl;
 
 }
+
 
