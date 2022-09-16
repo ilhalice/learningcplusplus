@@ -1,3 +1,6 @@
+/*Escreva um algoritmo que calcule o valor de uma prestação em atraso, utilizando a fórmula: total =
+valor + (valor * ((taxa / 100) * dias)). Mostre o valor inicial e o valor corrigido.*/
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,7 @@
+/* Faça um algoritmo para “calcular o estoque médio de uma peça”, sendo que:
+ESTOQUEMÉDIO = (QUANTIDADE MÍNIMA + QUANTIDADE MÁXIMA) /2
+Observação: as quantidades mínima e máxima devem ser informadas pelo usuário. */
+
 #include <iostream>
 using namespace std;
 
@@ -19,4 +23,3 @@ int main()
     cout<<"O estoque médio é de "<<estoqueMedio<<" peças" <<endl;
 
 }
-

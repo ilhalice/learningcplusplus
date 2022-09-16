@@ -1,3 +1,7 @@
+/*Suponha que um caixa eletrônico disponha apenas de notas de 1, 2, 5, 10, 20, 50 e 100 reais.
+Considerando que alguém está sacando um determinado valor, escreva um algoritmo que mostre a
+quantidade de cada tipo de notas que o caixa deve fornecer. Suponha que o sistema monetário não utilize
+centavos*/
 
 #include <iostream>
 using namespace std;

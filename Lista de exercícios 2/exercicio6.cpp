@@ -1,3 +1,6 @@
+/*Faça um programa que leia o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
+− A idade desta pessoa
+− Quantos anos ela terá em 2063.*/
 #include <iostream>
 using namespace std;
 
