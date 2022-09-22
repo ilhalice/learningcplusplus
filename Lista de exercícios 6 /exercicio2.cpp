@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-    int A, B;
+    int A, B, C;
     float total;
-    string C, divisao, multiplicacao, subtracao, adicao;
+
 
     cout<<"Adicione valor para A: ";
     cin>>A;
@@ -12,30 +12,29 @@ int main(){
     cout<<"Adicione valor para B: ";
     cin>>B;
 
-    cout<<"Tipo de operador aritmético a ser usado: Adição, Subtração, Multiplicação, Divisão: ";
+    cout<<"Tipo de operador aritmético a ser usado - 1 para adição, 2 para subtração, 3 para multiplicação e 4 para divisão: ";
     cin>>C;
 
-    if (C == adicao){
+    if (C == 1){
         total = A + B;
         cout<<"Total: "<<total<<endl;
     
     }
-    if (C == subtracao){
+    if (C == 2){
         total = A - B;
         cout<<"Total: "<<total<<endl;
     
     }
-    if (C == multiplicacao){
+    if (C == 3){
         total = A * B;
         cout<<"Total: "<<total<<endl;
     
     }
-    if (C == divisao){
+    if (C == 4){
         total = A / B;
         cout<<"Total: "<<total<<endl;
     
     }
-    return 0;
 
 
 
