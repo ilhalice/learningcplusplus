@@ -9,6 +9,7 @@ Código da categoria Margem de lucro %
 4 15%*/
 
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -24,20 +25,20 @@ int main()
     cin>>code;
     
     if (code == 1){
-        percent = price * 0.35;
-        cout<<"The final price is $ "<<percent<<endl;
+        percent = (price * 0.35) + price;
+        cout<<"The final price is $ "<< setprecision(5)<< percent<<endl;
     }
-    if (code == 2){
-        percent = price * 0.28;
-        cout<<"The final price is $ "<<percent<<endl;
+    else if (code == 2){
+        percent = (price * 0.28) + price;
+        cout<<"The final price is $ "<< setprecision(5)<<percent<<endl;
     }
-    if (code == 3){
-        percent = price * 0.22;
-        cout<<"The final price is $ "<<percent<<endl;
+    else if (code == 3){
+        percent = (price * 0.22) + price;
+        cout<<"The final price is $ "<< setprecision(5)<< percent<<endl;
     }
-    if (code == 4){
-        percent = price * 0.15;
-        cout<<"The final price is $ "<<percent<<endl;
+    else if (code == 4){
+        percent = (price * 0.15)+ price;
+        cout<<"The final price is $ "<< setprecision(5)<<percent<<endl;
     }
     else {
         cout<<"Invalid code"<<endl;

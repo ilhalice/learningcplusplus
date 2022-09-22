@@ -19,3 +19,4 @@ int main(){
         cout<<"seu numero ai nao eh par e somado com cinco dá: "<<naoehPar<<endl;
     }
 }
+ 

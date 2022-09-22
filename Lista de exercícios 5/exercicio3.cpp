@@ -45,10 +45,10 @@ int main()
  //15% para aqueles que ganham acima de dez até vinte salários mínimos;
    else if (salario>=dezSalarios && salario <= vinteSalarios){
       novoSal = (salario * 0.15)+ salario;
-      cout<<nome<<" seu novo salário será de: R$ "<<novoSal<<" reais";
+      cout<<nome<<", seu novo salário será de: R$ "<<novoSal<<" reais";
    }
 //10% para os demais funcionários
-      else if (salario < tresSsalarios && salario < dezSalarios && salario < vinteSalarios){
+      else if (salario < tresSsalarios && salario < dezSalarios && salario < vinteSalarios or salario > tresSsalarios && salario > dezSalarios && salario > vinteSalarios ){
      novoSal = (salario * 0.10) + salario;
      cout<<nome<<" seu novo salário será de: R$ "<<novoSal<<" reais";
       }
